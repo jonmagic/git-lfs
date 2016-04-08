@@ -45,8 +45,7 @@ $ git lfs track "*.zip"
 Now you're ready to push some commits:
 
 ```bash
-$ git add .gitattributes
-$ git add my.zip
+$ git add .gitattributes my.zip
 $ git commit -m "add zip"
 ```
 
